@@ -10,7 +10,7 @@ tss files formatter, order, beautifully for your coding standards.
 
 #### Before
 
-```json
+```
 "Label": {
    layout: "vertical",
   color: '#ffffff',
@@ -26,7 +26,7 @@ top:10,
 
 #### After
 
-```json
+```
 'View': {
 	top: 10,
 	left: 100,
@@ -71,7 +71,7 @@ $ tssf --dryrun
 
 Default ```.tssrc```.
 
-```json
+```
 {
 	"titanium": "Ti",          // or Titanium
 	"eof": "",                 // or \n
