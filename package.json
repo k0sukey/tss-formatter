@@ -1,0 +1,48 @@
+{
+  "name": "tss-formatter",
+  "version": "0.0.1",
+  "description": "tss formatter",
+  "keywords": [
+    "appcelerator",
+    "titanium",
+    "alloy",
+    "cli",
+    "tss",
+    "formatter"
+  ],
+  "main": "bin/tssFormatter",
+  "bin": {
+    "tssf": "bin/tssFormatter",
+    "tss-formatter": "bin/tssFormatter"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "author": {
+    "name": "Kosuke Isobe",
+    "email": "isobe@k0suke.be",
+    "url": "https://github.com/k0sukey"
+  },
+  "homepage": "https://github.com/k0sukey/tss-formatter",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/k0sukey/tss-formatter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/k0sukey/tss-formatter/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alloy": "^1.6.0",
+    "chalk": "^1.0.0",
+    "fs-extra": "^0.18.4",
+    "lodash": "^3.9.1",
+    "meow": "^3.1.0",
+    "tiapp.xml": "^0.2.2",
+    "wrench": "^1.5.8"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
