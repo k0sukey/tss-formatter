@@ -6,7 +6,7 @@ tss-formatter in development. There is a possibility to destroy the tss files. P
 
 ### Description
 
-tss files formatter, order, beautifully for your coding standards.
+Titanium Alloy ```.tss``` files formatter, order, beautifully for your coding standards.
 
 #### Before
 
