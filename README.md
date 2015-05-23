@@ -61,6 +61,12 @@ $ tssf
 $ tssf --project-dir /path/to
 ```
 
+#### Diff
+
+```sh
+$ tssf --diff
+```
+
 #### Dry run
 
 ```sh
