@@ -1,0 +1,7 @@
+"Window[platform=ios]": {
+    titleAttributes:  {
+        font: {
+            fontFamily: "Helvetica",
+        },
+    }
+}

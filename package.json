@@ -1,6 +1,6 @@
 {
   "name": "tss-formatter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Titanium Alloy .tss files formatter, order, beautifully for your coding standards.",
   "keywords": [
     "appcelerator",
