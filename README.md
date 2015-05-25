@@ -2,7 +2,7 @@
 
 **IMPORTANT**
 
-tss-formatter in development. There is a possibility to destroy the tss files. Please be ahead, ```--dryrun```.
+tss-formatter in development. There is a possibility to destroy the tss files. Please be ahead, ```--dryrun``` or ```--diff```.
 
 ### Description
 
@@ -13,11 +13,11 @@ Titanium Alloy ```.tss``` files formatter, order, beautifully for your coding st
 ```
 "Label": {
    layout: "vertical",
-  color: '#ffffff',
+  color:'#ffffff',
 	 width:120,
   backgroundColor: '#000000',
 	left: "100dp",
-  borderColor: "#ff0000",
+  		  	 borderColor: "#ff0000",
   borderWidth: 1,
 top:10,
   height: "200",
@@ -79,11 +79,12 @@ Default ```.tssrc```.
 
 ```
 {
-	"titanium": "Ti",          // or Titanium
-	"eof": "",                 // or \n
-	"quote": "'",              // or \"
-	"indent": "\t",            // or spaces
-	"strip_defaultunit": true, // or false
+	"titanium": "Ti",             // or Titanium
+	"eof": "",                    // or \n
+	"quote": "'",                 // or \"
+	"indent": "\t",               // or spaces
+	"strip_defaultunit": true,    // or false
+	"concatenation_comma": false, // or true
 	"guess_number": [
 		"top",
 		"right",
@@ -131,6 +132,29 @@ Default ```.tssrc```.
 
 * Comments from being deleted
 * Support of deep hierarchy properties
+
+### Change log
+
+#### 0.0.5
+
+* Added concatenation_comma in .tssrc
+* Explicit null judgement
+
+#### 0.0.4
+
+* Fixed case of object in object
+
+#### 0.0.3
+
+* Added ```--diff``` option
+
+#### 0.0.2
+
+* Detect the process.env.HOME/.tssrc
+
+#### 0.0.1
+
+* Initial release
 
 ### License
 

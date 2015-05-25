@@ -4,6 +4,7 @@
 	"quote": "'",
 	"indent": "\t",
 	"strip_defaultunit": true,
+	"concatenation_comma": false,
 	"guess_number": [
 		"top",
 		"right",
