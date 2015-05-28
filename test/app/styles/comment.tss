@@ -1,0 +1,8 @@
+/*
+ * Multiline comment
+ */
+'View': {
+	// Singleline comment
+	top: 0,
+	left: 0
+}

@@ -17,7 +17,7 @@ Titanium Alloy ```.tss``` files formatter, order, beautifully for your coding st
 	 width:120,
   backgroundColor: '#000000',
 	left: "100dp",
-  		  	 borderColor: "#ff0000",
+			 borderColor: "#ff0000",
   borderWidth: 1,
 top:10,
   height: "200",
@@ -84,6 +84,7 @@ Default ```.tssrc```.
 	"quote": "'",                 // or \"
 	"indent": "\t",               // or spaces
 	"strip_defaultunit": true,    // or false
+	"strip_comment": false,       // or true
 	"concatenation_comma": false, // or true
 	"guess_number": [
 		"top",
@@ -130,10 +131,15 @@ Default ```.tssrc```.
 
 ### Known Issues
 
-* Comments from being deleted
+* ~~Comments from being deleted~~
 * Support of deep hierarchy properties
 
 ### Change log
+
+#### 0.0.6
+
+* Added strip_comment in .tssrc
+* Added ```--verbose``` option
 
 #### 0.0.5
 
