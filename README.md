@@ -27,7 +27,7 @@ top:10,
 #### After
 
 ```
-'View': {
+'Label': {
 	top: 10,
 	left: 100,
 	width: 120,
