@@ -1,6 +1,6 @@
 {
   "name": "tss-formatter",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Titanium Alloy .tss files formatter, order, beautifully for your coding standards.",
   "keywords": [
     "appcelerator",
@@ -8,12 +8,14 @@
     "alloy",
     "cli",
     "tss",
-    "formatter"
+    "formatter",
+    "beautifier",
+    "beautify"
   ],
-  "main": "bin/tssFormatter",
+  "main": "bin/tssf",
   "bin": {
-    "tssf": "bin/tssFormatter",
-    "tss-formatter": "bin/tssFormatter"
+    "tssf": "bin/tssf",
+    "tss-formatter": "bin/tssf"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -36,6 +38,7 @@
   "dependencies": {
     "alloy": "^1.6.0",
     "chalk": "^1.0.0",
+    "color-parser": "^0.1.0",
     "diff": "^1.4.0",
     "fs-extra": "^0.18.4",
     "lodash": "^3.9.1",
@@ -45,5 +48,9 @@
   },
   "engines": {
     "node": ">=0.10"
+  },
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.57.0"
   }
 }

@@ -6,7 +6,7 @@ tss-formatter in development. There is a possibility to destroy the tss files. P
 
 ### Description
 
-Titanium Alloy ```.tss``` files formatter, order, beautifully for your coding standards.
+Titanium Alloy ```.tss``` files formatter, order, beautifier for your coding standards.
 
 #### Before
 
@@ -86,6 +86,8 @@ Default ```.tssrc```.
 	"strip_defaultunit": true,    // or false
 	"strip_comment": false,       // or true
 	"concatenation_comma": false, // or true
+	"color_format": "hex",        // or rgb, Unspecified are origin
+	"color_hex_uppercase": true,  // or false, Unspecified are origin
 	"guess_number": [
 		"top",
 		"right",
@@ -96,6 +98,30 @@ Default ```.tssrc```.
 		"borderWidth",
 		"borderRadius",
 		"fontSize"
+	],
+	"guess_color": [
+		"color",
+		"backgroundColor",
+		"backgroundDisabledColor",
+		"backgroundFocusedColor",
+		"backgroundSelectedColor",
+		"selectedBackgroundColor",
+		"selectedColor",
+		"foregroundColor",
+		"borderColor",
+		"pullBackgroundColor",
+		"viewShadowColor",
+		"hintTextColor",
+		"tintColor",
+		"onTintColor",
+		"thumbTintColor",
+		"barColor",
+		"keyboardToolbarColor",
+		"pincolor",
+		"tabsBackgroundColor",
+		"disabledColor",
+		"selectedColor",
+		"shadowColor"
 	],
 	"order": [
 		"top",
@@ -135,6 +161,13 @@ Default ```.tssrc```.
 * Support of deep hierarchy properties
 
 ### Change log
+
+#### 0.0.7
+
+* Added specified .tssrc file ```--config``` option
+* Added .tssrc ```--generate``` option
+* Added color code formatter
+* Fixed unorder increment
 
 #### 0.0.6
 

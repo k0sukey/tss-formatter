@@ -1,0 +1,21 @@
+'.hex3': {
+	color: '#f00'
+}
+'.hex4': {
+	color: '#5f00'
+}
+'.hex6': {
+	color: '#ff0000'
+}
+'.hex8': {
+	color: '#80ff0000'
+}
+'.rgb': {
+	color: 'rgb(255, 0, 0)'
+}
+'.rgba': {
+	color: 'rgba(255, 0, 0, 0.5)'
+}
+'.alloy': {
+	color: Alloy.CFG.color
+}
