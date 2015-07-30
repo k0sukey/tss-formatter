@@ -1,6 +1,6 @@
 {
   "name": "tss-formatter",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Titanium Alloy .tss files formatter, order, beautifier for your coding standards.",
   "keywords": [
     "appcelerator",
@@ -12,7 +12,7 @@
     "beautifier",
     "beautify"
   ],
-  "main": "bin/tssf",
+  "main": "index.js",
   "bin": {
     "tssf": "bin/tssf",
     "tss-formatter": "bin/tssf"
@@ -36,7 +36,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "alloy": "^1.6.0",
+    "alloy": "^1.7.3",
     "chalk": "^1.0.0",
     "color-parser": "^0.1.0",
     "diff": "^1.4.0",
