@@ -1,0 +1,27 @@
+'#gradient': {
+	backgroundGradient: {
+		type: 'linear',
+		startPoint: {
+			x: '100%',
+			y: '0%'
+		},
+		endPoint: {
+			x: '50%',
+			y: '100%'
+		},
+		colors: [
+			{
+				color: '#000000',
+				offset: 0.0
+			},
+			{
+				color: '#888888',
+				offset: 0.50
+			},
+			{
+				color: '#ffffff',
+				offset: 1.0
+			}
+		]
+	}
+}
